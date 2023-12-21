@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin-top: 0%;
+	font-family: sans-serif;
+}
+
+body {
+	background-image: url();
+	background-color: rgb(132, 175, 214);
+	background-size: cover ;
+	background-position:top center;
+	position: relative;
+}
+	
+.nav{
+text-align: right;
+font-size: xx-large;
+justify-content: space-between;
+display:flex;
+margin-bottom: 74px;
+height: 100px;
+align-items: center;
+background-color: rgb(174, 208, 243);
+}
+.nav :hover{
+	color:black;
+}
+.container{
+	background-color:white;
+	border: 2px solid;
+	box-shadow: 25px 55px 30px rgb(26, 27, 26);
+	padding-top:19px;
+	padding-right:19px;
+	margin:24px;
+
+}
+.container1{
+	background-color:white;
+	border:2px solid;
+	display:inline-flex;
+	box-shadow: 40px 20px 40px rgb(46, 51, 66);
+}
+.homecontent h3 {
+	position: relative;
+	width:100%;
+	justify-content: space-between;
+	color: #ececec;
+}
+.homecontent h3 span{
+	color: aqua;
+
+}
+.homecontent h3{
+	font-size:30px;
+	font-weight: 700;
+margin: -3px 0;
+}
+.homecontent h3:nth-of-type(2){
+	margin-bottom: 30px;
+}
+.homecontent h1{
+	font-size: 50;
+	color: rgb(12, 11, 11);
+
+}
+.nav h1{
+	color: #ffffff;
+	text-decoration-line: underline;
+}
+
+.container{
+	display:inline-flex;
+	width:27%;
+	font-size:larger;
+	text-align: center;
+	background-color: rgb(180, 245, 245);
+}
+.about{
+	text-decoration: underline;
+color: gray;
+}
+.bottom{
+	background-color: rgb(212, 180, 180);
+}
+
+
+/* Media Query For Desktop */
+@media only screen and (max-width:800px) {
+	.container{
+		flex-wrap: wrap;
+		display: flex;
+		width: fit-content;
+		font-size: small;
+		text-align: center;
+		
+		
+	}
+
+}
+@media only screen and (max-width:400px)
+{
+	body{
+		text-align: center;
+		flex-wrap: wrap;
+		display: inline-flex;
+		font-size: small;
+		text-align: center;
+	}
+}
+ @media only screen and (max-width:800px) {
+	.nav{
+		font-size: small;
+		text-align: center;
+	}
+}
+
+.links{
+    margin-top: 1%;
+}
+.links i{
+    padding: 7px;
+    color: #444;
+    font-size: 50px;
+    border-radius: 50%;
+    margin-right: 9%;
+    box-shadow: 0 3px 6px rgba(215, 224, 221, 0.16),
+    0 3px 6px rgba(0,0,0,0.23);
+}
+.links i:hover{
+    color: #fff;
+    background-color: rgb(9, 62, 209);
+    cursor: pointer;
+}
+.gmail{
+	color: red;
+}
+.marquee1{
+	font-size: 70px;
+	color: beige;
+}
